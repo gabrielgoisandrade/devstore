@@ -7,9 +7,11 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-
 export const metadata: Metadata = {
-  title: "devstore",
+  title: {
+    default: 'devstore',
+    template: '%s | devstore'
+  },
 };
 
 export default function RootLayout({
