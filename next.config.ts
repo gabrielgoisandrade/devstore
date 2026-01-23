@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
   images: {
     remotePatterns: [new URL("https://github.com/gabrielgoisandrade.png")], // * permite usar endereços externos no Image do next.
-    qualities: [25, 50, 75, 100]
+    qualities: [25, 50, 75, 100],
   },
 };
 

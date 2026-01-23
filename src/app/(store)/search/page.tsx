@@ -30,9 +30,9 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
 
   return (
     <div className="flex flex-col gap-4">
-      <p className="text-sm">
-        Resultados para: <span className="font-semibold">{query}</span>
-      </p>
+        <p className="text-sm">
+          Resultados para: <span className="font-semibold">{query}</span>
+        </p>
 
       <div className="grid grid-cols-3 gap-6">
         {products.map((product) => (
